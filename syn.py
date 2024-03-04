@@ -2,7 +2,7 @@ import pandas as pd
 from itertools import product
 
 def is_favorable(row):
-    # Define weights for different factors
+    # Defining weights for different factors
     urgency_factor = 0.5
     scarcity_factor = 0.4
     alignment_factor = 0.3
@@ -70,4 +70,4 @@ synthetic_data['Favorable Deal'] = synthetic_data.apply(is_favorable, axis=1)
 print(synthetic_data)
 
 # Write the DataFrame to an Excel file
-synthetic_data.to_excel('data2.xlsx', sheet_name='Sheet1', index=False)
+synthetic_data.to_excel('data.xlsx', sheet_name='Sheet1', index=False)
