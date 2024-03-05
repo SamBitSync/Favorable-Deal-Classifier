@@ -111,7 +111,7 @@ def visualize_tree(node, feature_names, class_labels, dot=None):
 
 
 
-# Load the synthetic data
+# Loading the synthetic data
 synthetic_data = pd.read_excel('data.xlsx')
 
 # Convert nominal attributes into one-hot encoded format
