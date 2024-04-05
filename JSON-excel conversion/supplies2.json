@@ -1,0 +1,33 @@
+{
+    "supplies": [
+      {
+        "id": 1,
+        "category": "Vehicle",
+        "urgency": "this month",
+        "program": "Royal Enfield",
+        "creation_date": "2024-02-15"
+      },
+      {
+        "id": 2,
+        "category": "Food",
+        "urgency": "this week",
+        "program": "Shandar momo",
+        "creation_date": "2024-02-18"
+      },
+      {
+        "id": 3,
+        "category": "Shoes",
+        "urgency": "today",
+        "program": "Caliber",
+        "creation_date": "2024-02-20"
+      },
+      {
+        "id": 4,
+        "category": "Beverage",
+        "urgency": "today",
+        "program": "Himalayan Java",
+        "creation_date": "2024-02-19"
+      }
+    ]
+  }
+  
